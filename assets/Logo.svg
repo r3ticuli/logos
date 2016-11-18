@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="457px" height="467px" viewBox="0 0 457 467" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.1 (29687) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-180.000000, -279.000000)">
+            <g id="Group-4" transform="translate(72.000000, 173.000000)">
+                <g id="Group-3">
+                    <g id="Logo">
+                        <circle id="Oval-1" stroke="#9B9B9B" stroke-width="2" cx="336" cy="339" r="225"></circle>
+                        <circle id="Oval-1" stroke="#FFFFFF" stroke-width="2" cx="336" cy="484" r="75"></circle>
+                        <circle id="Oval-1" stroke="#FFFFFF" stroke-width="2" cx="336" cy="189" r="75"></circle>
+                        <circle id="Oval-1" stroke="#FFFFFF" stroke-width="2" cx="186" cy="339" r="75"></circle>
+                        <circle id="Oval-1" stroke="#FFFFFF" stroke-width="2" cx="486" cy="339" r="75"></circle>
+                        <polygon id="Polygon-1" stroke="#FFFFFF" transform="translate(336.500000, 339.500000) rotate(25.000000) translate(-336.500000, -339.500000) " points="336.5 83 588 339.5 336.5 596 85 339.5"></polygon>
+                        <g id="Arrow" transform="translate(303.000000, 308.000000)" fill="#FFFFFF">
+                            <path d="M35,39.5 L35,0" id="Line"></path>
+                            <path id="Line-decoration-1" d="M35,0 L32,10.8 L38,10.8 L35,0 Z"></path>
+                            <path d="M0.23912418,39.5 L35,58.2598377" id="Line" transform="translate(17.619562, 48.879919) scale(-1, 1) translate(-17.619562, -48.879919) "></path>
+                            <path id="Line-decoration-1" d="M35,58.2598377 L26.9205583,50.4904991 L24.0709627,55.7706322 L35,58.2598377 Z"></path>
+                            <path d="M67.6944857,39.5 L35,61.665753" id="Line" transform="translate(51.347243, 50.582877) scale(-1, 1) translate(-51.347243, -50.582877) "></path>
+                            <path id="Line-decoration-1" d="M35,61.665753 L45.6227267,58.0883688 L42.2557769,53.1221178 L35,61.665753 Z"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
