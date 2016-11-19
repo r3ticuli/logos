@@ -4,8 +4,8 @@
   font-family: 'Inconsolata', monospace;
   font-family: 'Oxygen', sans-serif;
   font-family: 'Bungee Hairline', monospace;
-  font-family: 'Helvetica Neue', sans-serif;
-  src: "/assets/helveticaneue.ttf" format("truetype");
+  font-family: 'Lato', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 
 }
 
@@ -13,7 +13,7 @@ body {
   background-color: black;
   color: white;
   font-size:5em;
-  font-family: Helvetica Neue;
+  font-family: Lato;
   font-weight: lighter;
   margin:auto;
   width:100%;
@@ -103,7 +103,7 @@ header {
 
 #s2 {
   margin: auto;
-  padding-top: 120px;
+  padding-top: 140px;
   padding-bottom: 60px;
   width: 80%;
   display: flex;
@@ -112,6 +112,14 @@ header {
 #s2Title {
   margin: 160px auto;
 
+}
+
+#emailFormDiv {
+  margin:auto;
+  color: white;
+  font-size:.75em;
+  text-rendering: optimizeLegibility;
+  letter-spacing: -0.02em;
 }
 
 #emailForm {
@@ -137,7 +145,8 @@ header {
 
 .parsley-custom-error-message {
   color: red;
-  font-size:.5em;
+  font-weight: 300;
+  font-size:.7em;
   text-rendering: optimizeLegibility;
   letter-spacing: -0.02em;
 }
