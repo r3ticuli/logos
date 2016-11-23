@@ -9,14 +9,15 @@ $(document).ready(function(){
     $.ajax({
       url: 'https://logosmailer.herokuapp.com/mailer.php',
       type: 'POST',
-      dataType: 'json',
       data: formData,
       beforeSend: function() {
+        submitLabel.css('display','inherit');
+        submitLabel.css('color','white');
         submitLabel.html('Sending....');
       },
       success: function(data) {
         form.trigger('reset');
-        //submitLabel.html('Sent!');
+        submitLabel.html('Sent!');
         submitLabel.css('color','chartreuse');
         submitLabel.fadeOut(3000);
       },
