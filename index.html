@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
 
@@ -24,7 +25,7 @@
     <div id='headerBox'>
       <div id="headerLogo">
         <div class="logoText">logos labs</div>
-        <img class="logoImage" src="assets/Logo.svg"/>
+        <img class="logoImage" src="assets/Logo.svg" />
       </div>
       <span id=headerText>
         <div class=headerText> We are a small collective of designers and developers for hire. </div>
@@ -35,19 +36,19 @@
     <div id="s1Title">the team</div>
     <div id="teamGrid">
       <div class="col-1-3">
-        <img class="teammatePic" src="assets/headshots/sm_hs.png"/>
+        <img class="teammatePic" src="assets/headshots/sm_hs.png" />
         <div class="teammateName"> sebastian messier </div>
         <div class="teammateBio"> UPenn CS’16. I've interned at startups and Apple Inc. Lover of noise, exotic food, and (most importantly) shit that works as intended. </div>
       </div>
 
       <div class="col-1-3">
-        <img class="teammatePic" src="assets/headshots/sm_hs.png"/>
+        <img class="teammatePic" src="assets/headshots/sm_hs.png" />
         <div class="teammateName"> mick shavrick </div>
         <div class="teammateBio"> RPI CS’16. I’ve worked at Facebook, Google, Twitter, and Chipotle. I’d tell you my UDP joke, but you probably wouldn’t get it. </div>
       </div>
 
       <div class="col-1-3">
-        <img class="teammatePic" src="assets/headshots/sm_hs.png"/>
+        <img class="teammatePic" src="assets/headshots/sm_hs.png" />
         <div class="teammateName"> jenn hudock </div>
         <div class="teammateBio"> Graphic Designer from Coral Springs, Fl. Loves Anime, her sketchpad, and Kero Kero Bonito. </div>
       </div>
@@ -58,34 +59,39 @@
   </section>
   <section id="s2">
     <div id=s2Title>keep us busy</div>
-      <div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-0 form-holder" id="emailFormDiv">
-        <form id="emailForm" class="material-form" data-parsley-validate="" novalidate="">
-        						<!--from-->
-        						<div class="formGroup">
-        							<label class="">to</label>
-                      <input type="text" name="to" class="formField" value="logos.labs.hq@gmail.com" disabled="" data-parsley-id="0900"><ul class="parsley-errors-list" id="parsley-id-0900"></ul>
-        						</div>
-        						<!--to-->
-        						<div class="formGroup">
-        							<label class="">from</label>
-                      <input type="text" name="from" class="formField" placeholder="email@example.com" data-parsley-type="email" data-parsley-trigger="focusout" data-parsley-error-message="Oops, something is missing..." data-parsley-required="" required="" data-parsley-id="1277"><ul class="parsley-errors-list" id="parsley-id-1277"></ul>
-        						</div>
-        						<!--subject-->
-        						<div class="formGroup">
-                      <label class="">subject</label>
-        							<input type="text" name="subject" class="formField" placeholder="Howdy!" data-parsley-id="8039"><ul class="parsley-errors-list" id="parsley-id-8039"></ul>
-        						</div>
-                    <!--body-->
-        						<div class="formGroup">
-        							<textarea class="formField" rows="5" placeholder="your message here . . ." data-parsley-id="1222"></textarea><ul class="parsley-errors-list" id="parsley-id-1222"></ul>
-        						</div>
-        						<footer class="submitEmailForm">
-        							<button type="submit" id="sendButton"  class="glyphicon glyphicon-send"></button>
-                      <label id="submitLabel"></label>
-        						</footer>
-        					</form>
-				</div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-0 form-holder" id="emailFormDiv">
+      <form id="emailForm" class="material-form" data-parsley-validate="" novalidate="">
+        <!--from-->
+        <div class="formGroup">
+          <label class="">to</label>
+          <input type="text" name="to" class="formField" value="logos.labs.hq@gmail.com" disabled="" data-parsley-id="0900">
+          <ul class="parsley-errors-list" id="parsley-id-0900"></ul>
+        </div>
+        <!--to-->
+        <div class="formGroup">
+          <label class="">from</label>
+          <input type="text" name="from" class="formField" placeholder="email@example.com" data-parsley-type="email" data-parsley-trigger="focusout" data-parsley-error-message="Oops, something is missing..." data-parsley-required="" required="" data-parsley-id="1277">
+          <ul class="parsley-errors-list" id="parsley-id-1277"></ul>
+        </div>
+        <!--subject-->
+        <div class="formGroup">
+          <label class="">subject</label>
+          <input type="text" name="subject" class="formField" placeholder="Howdy!" data-parsley-id="8039">
+          <ul class="parsley-errors-list" id="parsley-id-8039"></ul>
+        </div>
+        <!--body-->
+        <div class="formGroup">
+          <textarea class="formField" rows="5" placeholder="your message here . . ." data-parsley-id="1222"></textarea>
+          <ul class="parsley-errors-list" id="parsley-id-1222"></ul>
+        </div>
+        <footer class="submitEmailForm">
+          <button type="submit" id="sendButton" class="glyphicon glyphicon-send"></button>
+          <label id="submitLabel"></label>
+        </footer>
+      </form>
+    </div>
   </section>
 
 </body>
+
 </html>
