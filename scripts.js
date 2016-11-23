@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
   var form = $('#emailForm');
-  var submit = $('#submitEmailForm');
+  var submitLabel = $('#submitLabel');
   form.on('submit', function(e) {
     e.preventDefault();
     formData = form.serialize() + '&body=' + $('#emailForm textarea').val();
@@ -12,13 +12,17 @@ $(document).ready(function(){
       dataType: 'json',
       data: formData,
       beforeSend: function() {
-        submit.html('Sending....');
+        submitLabel.html('Sending....');
       },
       success: function(data) {
         form.trigger('reset');
-        submit.html('Sent!');
+        //submitLabel.html('Sent!');
+        submitLabel.css('color','chartreuse');
+        submitLabel.fadeOut(3000);
       },
       error: function(e) {
+        submitLabel.html('Failed to send message!');
+        submitLabel.css('color','red');
         console.log(e);
       }
     });
