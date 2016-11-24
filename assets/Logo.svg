@@ -15,13 +15,10 @@
                         <circle id="Oval-1" stroke="#FFFFFF" stroke-width="2" cx="186" cy="339" r="75"></circle>
                         <circle id="Oval-1" stroke="#FFFFFF" stroke-width="2" cx="486" cy="339" r="75"></circle>
                         <polygon id="Polygon-1" stroke="#FFFFFF" transform="translate(336.500000, 339.500000) rotate(25.000000) translate(-336.500000, -339.500000) " points="336.5 83 588 339.5 336.5 596 85 339.5"></polygon>
-                        <g id="Arrow" transform="translate(303.000000, 308.000000)" fill="#FFFFFF">
-                            <path d="M35,39.5 L35,0" id="Line"></path>
-                            <path id="Line-decoration-1" d="M35,0 L32,10.8 L38,10.8 L35,0 Z"></path>
-                            <path d="M0.23912418,39.5 L35,58.2598377" id="Line" transform="translate(17.619562, 48.879919) scale(-1, 1) translate(-17.619562, -48.879919) "></path>
-                            <path id="Line-decoration-1" d="M35,58.2598377 L26.9205583,50.4904991 L24.0709627,55.7706322 L35,58.2598377 Z"></path>
-                            <path d="M67.6944857,39.5 L35,61.665753" id="Line" transform="translate(51.347243, 50.582877) scale(-1, 1) translate(-51.347243, -50.582877) "></path>
-                            <path id="Line-decoration-1" d="M35,61.665753 L45.6227267,58.0883688 L42.2557769,53.1221178 L35,61.665753 Z"></path>
+                        <g id="Arrow" transform="translate(110.000000, 100.000000)" fill="#FFFFFF">
+                          <path d="m230,202l-3,10.8l6,0l-3,-10.8z" id="Line-decoration-1"/>
+                          <path transform="rotate(120 261.09057617187506,261.3111572265625) " id="svg_1" d="m261.09058,255.91116l-3,10.8l6,0l-3,-10.8z"/>
+                          <path transform="rotate(-120 197.54565429687494,260.24328613281244) " id="svg_2" d="m197.54565,254.84328l-3,10.8l6,0l-3,-10.8z"/>
                         </g>
                     </g>
                 </g>
